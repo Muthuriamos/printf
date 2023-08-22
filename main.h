@@ -1,9 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-<<<<<<< HEAD
-
-int _putchar(char c);
-=======
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -43,13 +39,10 @@ struct fmt
  */
 typedef struct fmt fmt_t;
 
->>>>>>> 0c6c7b1728110c03d6456b25c189da1ce96d792f
 int _printf(const char *format, ...);
 int handle_print(const char *fmt, int *i,
 va_list list, char buffer[], int flags, int width, int precision, int size);
 
-<<<<<<< HEAD
-=======
 /****************** FUNCTIONS ******************/
 
 /* Funtions to print chars and strings */
@@ -121,5 +114,4 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
->>>>>>> 0c6c7b1728110c03d6456b25c189da1ce96d792f
 #endif /* MAIN_H */
